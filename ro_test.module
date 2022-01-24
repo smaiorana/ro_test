@@ -1,0 +1,9 @@
+<?php
+
+/**
+ * Implements hook_init().
+ */
+function ro_test_init() {
+  $my_integer_class = new MyInteger(2);
+  echo $my_integer_class->get_my_integer();
+}

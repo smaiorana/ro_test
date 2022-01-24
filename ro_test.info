@@ -1,0 +1,5 @@
+name = RO Test
+description = Test module to use with Coder Upgrade.
+core = 7.x
+version = 7.x-1.0
+files[] = MyInteger.inc
